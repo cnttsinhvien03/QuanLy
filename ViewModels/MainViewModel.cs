@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using QuanLyBanHang.Helpers; // lưu ý đúng namespace chứa RelayCommand
+using QuanLyBanHang.Helpers; // lưu ý đúng namespace chứa RelayCommand.
 using QuanLyBanHang.Views;
 using QuanLyBanHang.Models;
 using QuanLyBanHang.Repositories;
