@@ -8,7 +8,7 @@ namespace QuanLyBanHang
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            DatabaseHelper.InitializeDatabase(); // Khởi tạo cơ sở dữ liệu khi ứng dụng chạy
+            DatabaseHelper.InitializeDatabase(); // Khởi tạo cơ sở dữ liệu khi ứng dụng chạy.
         }
     }
 }
