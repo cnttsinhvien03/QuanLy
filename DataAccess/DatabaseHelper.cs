@@ -67,7 +67,7 @@ namespace QuanLyBanHang.DataAccess
                         command.Parameters.AddWithValue("@MatKhau", "admin123");
                         command.Parameters.AddWithValue("@VaiTro", "Quản lý");
                         command.Parameters.AddWithValue("@Email", "admin@example.com");
-                        command.Parameters.AddWithValue("@SoDienThoai", "0123456789");
+                        command.Parameters.AddWithValue("@SoDienThoai", "012456789");
                         command.Parameters.AddWithValue("@DiaChi", "Hà Nội");
                         command.Parameters.AddWithValue("@GioiTinh", "Nam");
                         command.Parameters.AddWithValue("@HinhAnhPath", "");

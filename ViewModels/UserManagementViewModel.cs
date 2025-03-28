@@ -80,7 +80,7 @@ namespace QuanLyBanHang.ViewModels
             {
                 if (SelectedUser == null)
                 {
-                    MessageBox.Show("Vui lòng chọn một người dùng trong danh sách để chỉnh sửa!", "Cảnh báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show("Vui lòng chọn một người dùng trong danh sách để chỉnh sửa!.", "Cảnh báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
