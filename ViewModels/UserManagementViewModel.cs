@@ -80,11 +80,11 @@ namespace QuanLyBanHang.ViewModels
             {
                 if (SelectedUser == null)
                 {
-                    MessageBox.Show("Vui lòng chọn một người dùng trong danh sách để chỉnh sửa!", "Cảnh báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show("Vui lòng chọn một người dùng trong danh sách để chỉnh sửa!.", "Cảnh báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                // Tạo bản sao của SelectedUser để chỉnh sửa
+                // Tạo bản sao của SelectedUser để chỉnh sửa  nhé
                 var tempUser = new UserModel
                 {
                     Id = SelectedUser.Id,
