@@ -8,7 +8,7 @@ namespace QuanLyBanHang.Views
 {
     public partial class UserFormView : Window
     {
-        public UserModel UserData { get; private set; }
+        public UserModel UserData { get; private set; } 
 
         public UserFormView(UserModel user)
         {
