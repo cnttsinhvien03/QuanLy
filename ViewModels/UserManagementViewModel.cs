@@ -84,7 +84,7 @@ namespace QuanLyBanHang.ViewModels
                     return;
                 }
 
-                // Tạo bản sao của SelectedUser để chỉnh sửa
+                // Tạo bản sao của SelectedUser để chỉnh sửa  nhé
                 var tempUser = new UserModel
                 {
                     Id = SelectedUser.Id,
