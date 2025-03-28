@@ -58,7 +58,7 @@ namespace QuanLyBanHang.ViewModels
             }
         }
 
-        public List<string> GioiTinhList { get; set; } = new List<string> { "Nam", "Nữ" };
+        public List<string> GioiTinhList { get; set; } = new List<string> { "Nam", "Nữ" }; 
 
         public List<string> VaiTroList { get; set; } = new List<string>
         {
