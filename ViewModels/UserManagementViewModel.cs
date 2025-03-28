@@ -27,7 +27,7 @@ namespace QuanLyBanHang.ViewModels
             }
         }
 
-        public ICommand AddUserCommand { get; set; }
+        public ICommand AddUserCommand { get; set; } 
         public ICommand EditUserCommand { get; set; }
         public ICommand DeleteUserCommand { get; set; }
 
